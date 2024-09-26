@@ -1,0 +1,67 @@
+:root{
+    --Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey700: hsl(0, 0%, 20%);
+--Grey800: hsl(0, 0%, 12%);
+--offblack: hsl(0, 0%, 8%);
+}
+@font-face{ font-family:hi ;
+src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face{ font-family:hi ;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+    }
+    @font-face{ font-family:hi ;
+        src: url(assets/fonts/static/Inter-Regular.ttf);
+        }
+        @font-face{ font-family:hi ;
+            src: url(assets/fonts/static/Inter-SemiBold.ttf);}
+            *{padding: 0px;
+            margin: 0px;
+        box-sizing: border-box;
+    font-family: hi;}
+    body{
+        width: 100%;
+        min-height: 100vh;
+    background-color: var(--offblack);
+   display: flex;
+justify-content: center;
+   align-items: center;
+    }
+    .card{
+        background-color: var(--Grey800);
+        padding: 20px ;
+       border-radius: 20px;
+       width: 30%;
+  text-align: center;
+    }
+    .logo img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    .text :first-child{
+        color: var(--White);
+        margin: 20px 0px 8px 0px;
+    }
+    .text :nth-child(2){
+        color: var(--Green);
+    }
+    .text :nth-child(3){
+        color: rgb(163, 162, 162);
+        margin: 20px;
+    }
+   .Social a{
+    display: block;
+    text-decoration: none;
+    color: var(--White);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color:var(--Grey700) ;
+    transition: 0.5s;
+   }
+.Social a:hover{background-color: var(--Green);
+    color: var(--offblack);
+
+}
